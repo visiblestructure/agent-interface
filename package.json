@@ -1,0 +1,18 @@
+{
+  "name": "agent-interface-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Compile and analyze evidence-backed agent-facing interfaces.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "packageManager": "pnpm@11.24.0",
+  "engines": {
+    "node": "24.19.x",
+    "pnpm": "11.24.x"
+  },
+  "scripts": {
+    "build": "pnpm -r --if-present build",
+    "check": "pnpm -r --if-present check",
+    "test": "pnpm -r --if-present test"
+  }
+}
